@@ -21,7 +21,7 @@ hostname = cat-match-static.easygame2021.com, cat-match.easygame2021.com
 */
 
 
-var body = $response.body.replace(/90015/g, "80001").replace(/10017/g, "80001").replace(/100015/g, "80001");
+var body = $response.body.replace(/90017/g, "80001").replace(/10017/g, "80001").replace(/100015/g, "80001");
 $done({
   "body": body
 });
