@@ -10,7 +10,7 @@
 [rewrite_local]
 
 
-^https?:\/\/notability\.com\/subscriptions url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Notability.js
+^https?:\/\/notability\.com\/subscriptions url script-response-body https://raw.githubusercontent.com/fengwenhua/QuantumultX/main/Notability1.js
 
 [mitm] 
 
