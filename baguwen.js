@@ -9,7 +9,7 @@
 *******************************
 [rewrite_local]
 # > 校招八股文无限阅读
-^https:\/\/study-api\.playoffer\.cn:443\/wxUser\/payOneQuestion url script-response-body https://raw.githubusercontent.com/fengwenhua/QuantumultX/main/GXNOVA.js
+^https:\/\/study-api\.playoffer\.cn:443\/wxUser\/payOneQuestion url script-response-body https://raw.githubusercontent.com/fengwenhua/QuantumultX/main/baguwen.js
 ^https:\/\/study-api\.playoffer\.cn:443\/wxUser\/payOneQuestion url response-body code":\d\d\d response-body code":200
 [mitm] 
 hostname = study-api.playoffer.cn
